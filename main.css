@@ -1,0 +1,87 @@
+article, aside, header, footer, section, nav, figure{
+	display: block;
+}
+
+header, section, aside{
+	margin:0px;
+	padding:0px;
+}
+.h-group{
+	margin: 0;
+	text-align: center;
+}
+.h-group h2{
+	margin: 0;
+}
+.h-group h1{
+	margin: 0;
+}
+.h-group p{
+	margin: 0;
+}
+body{
+	width: 800px;
+	margin: 0em auto;
+	background-color: #fff;	
+	
+}
+.container{
+	background-color: rgba(77, 80, 77, 0.5);
+	box-shadow: 0.5rem 1rem 0.5rem rgba(49, 49, 49, 0.863);
+}
+
+header{
+	padding: 5px 5px;	
+}
+
+img{
+	margin-left: 150px;
+}
+table{
+	border: 1px solid black;	
+	border-collapse: collapse;
+	font-family: Arial;
+	font-size: 16px;
+}
+th, td{
+	border: 1px solid black;
+	padding: 5px 15px; 
+	text-align: right;
+}
+/*pseudo classes selector*/
+th, td:first-child{
+	text-align: left;	
+}
+
+td:nth-child(n){
+	text-align: center;
+}
+
+section{
+	float: left;
+	width: 450px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: justify;	
+}
+
+section img{
+	float:left;
+	padding: 5px 5px 0 0;	
+}
+
+aside{
+	float: right;
+	width: 250px;
+}
+.contact-details{
+	display:flex;
+  	align-items: center;
+}
+footer{
+	clear: both;
+	background-color: rgba(77, 80, 77, 0.5);
+	padding:0.3px 0.3px; 
+	color: white;
+	text-align: center;	
+}
